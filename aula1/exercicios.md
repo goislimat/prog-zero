@@ -35,9 +35,3 @@ Faça o mesmo que o programa anterior, mas permita que o usuário entre com o pe
 # #6
 
 Faça um programa que atue como uma calculadora de força centrípeta.
-
----
-
-# #7
-
-Faça um programa que diga se o número que o usuário digitou é par ou ímpar.
