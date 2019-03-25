@@ -28,7 +28,7 @@ Dado que um corpo pesa 80kg na Terra, calcule quanto ele pesa na lua e em Marte.
 
 # #5
 
-Faça o mesmo que o programa anterior, mas permita que o usuário entre com o peso.
+Faça o mesmo que o programa anterior, mas permita que o usuário entre com o peso na lua.
 
 ---
 
