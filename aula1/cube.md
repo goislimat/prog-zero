@@ -2,13 +2,13 @@
 
 Um computador é capaz de fazer coisas incríveis em um curto espaço de tempo. Mas para que ele seja capaz de realizar qualquer ação, ele precisa ser informado sobre como operar em determinadas situações.
 
-Para ilustrar o poder de um algoritmo, vamos tentar montar um cubo mágico se fazer a menor ideia de como fazer isso.
+Para ilustrar o poder de um algoritmo, vamos tentar montar um cubo mágico sem fazer a menor ideia de como fazer isso.
 
 Vamos precisar de:
 
 ### Alguém que nunca tenha conseguido montar um cubo mágico na vida
 
-Essa pessoa vai representar o computador. Ela possui todos os recursos necessários para conseguir montar o cubo, excluindo o fato de que ela não faz a sincera menor ideia de como montar resolver esse problema, AINDA!
+Essa pessoa vai representar o computador. Ela possui todos os recursos necessários para conseguir montar o cubo, excluindo o fato de que ela não faz a sincera menor ideia de como resolver esse problema, AINDA!
 
 ### Um algoritmo para montagem do cubo
 
@@ -16,7 +16,7 @@ Um passo-a-passo de alguém que entenda como montar um cubo e consiga converter 
 
 ### Código
 
-Para quem esteja montando, consiga entender o algoritmo que essa pessoa bolou de uma maneira simples e direta.
+Para que quem esteja montando, consiga entender o algoritmo que essa pessoa bolou de uma maneira simples e direta.
 
 ---
 
@@ -28,7 +28,7 @@ Agora que já temos o voluntário, vamos prosseguir com os passos.
 
 ### Passo 1: Fazer uma cruz na primeira camada
 
-Escolha uma cor para manter no topo. Nesse exemplo, trabalharemos com a cor branca.
+Escolha uma cor para manter no topo. Nesse exemplo, trabalharemos com a cor **branca**.
 
 - Mantenha o centro **branco** no topo
 - Coloque o centro **verde** de frente pra você
@@ -37,7 +37,7 @@ Escolha uma cor para manter no topo. Nesse exemplo, trabalharemos com a cor bran
 
 ![passo1](https://cdn.shopify.com/s/files/1/0646/0891/files/1a_480x480.png?v=1551225873 'Primeiro passo')
 
-Vá virando o cubo sempre mantendo o **branco** no topo e procurando pelas outras peças de meio que tenham a cor **branca**. Se ao tentar puxar uma peça nova para o movimento correto, você acabar desfazendo um canto que já estava correto, o jeito mais simples é:
+Vá virando o cubo sempre mantendo o **branco** no topo e procurando pelas outras peças de meio que tenham a cor **branca**. Se ao tentar puxar uma peça nova para a face correta, você acabar desfazendo um pedaço da cruz que já estava correto, o jeito mais simples é:
 
 - empurrar a peça que quer mover para a base
 - girar a base em qualquer sentido
@@ -67,14 +67,14 @@ Se o seu canto se encontrar como na imagem abaixo, faça o procedimento e retorn
 
 ![passo3](https://cdn.shopify.com/s/files/1/0646/0891/files/3a_480x480.png?v=1551226138 'Terceiro passo')
 
-Se não houver nenhuma peça de meio que não contenha **amarelo**, mova qualquer peça de meio para qualquer lado, fazendo um do grupo de movimentos listados acima. Com isso, necessariamente, uma peça de meio que não tenha **amarelo** poderá ser colocada em sua posição correta.
+Se não houver nenhuma peça de meio que não contenha **amarelo**, mova qualquer peça de meio para qualquer lado, fazendo um dos grupos de movimentos listados acima. Com isso, necessariamente, uma peça de meio que não tenha **amarelo** poderá ser colocada em sua posição correta.
 
 ### Passo 4: Complete a cruz da terceira camada
 
 - Coloque o amarelo no topo
 - A intenção é fazer uma cruz amarela
 - Você necessariamente vai cair em um dos quatro passos abaixo
-- Se você já cair direto na cruz, passe para o próximo passo
+- Se você já cair direto na cruz, passe para a próxima parte do passo
 
 ![passo4](https://cdn.shopify.com/s/files/1/0646/0891/files/4a_480x480.png?v=1551226233 'Quarto passo')
 
@@ -107,7 +107,7 @@ Uma vez que todos os cantos estejam em sua posição certa, mesmo que não corre
 ![passo51](https://cdn.shopify.com/s/files/1/0646/0891/files/5b_480x480.png?v=1551226481 'Quinto ponto um passo')
 
 - Você vai ter que executar esse movimento uma ou duas vezes para alinhar o canto
-- Quando o canto estiver perfeitamente alinhado, gire apenas a parte de cima do cubo até que o novo canto que precise de ajuste, se encontro no canto superior direito
+- Quando o canto estiver perfeitamente alinhado, gire apenas a parte de cima do cubo até que o novo canto que precise de ajuste, se encontre no canto superior direito
 - Quando todos os cantos estiverem corretamente posicionados, alinhe o cubo para finalizá-lo
 
 **FIM**
