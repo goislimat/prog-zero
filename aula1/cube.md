@@ -1,4 +1,4 @@
-#Entendendo algoritmos na prática
+# Entendendo algoritmos na prática
 
 Um computador é capaz de fazer coisas incríveis em um curto espaço de tempo. Mas para que ele seja capaz de realizar qualquer ação, ele precisa ser informado sobre como operar em determinadas situações.
 
@@ -6,27 +6,27 @@ Para ilustrar o poder de um algoritmo, vamos tentar montar um cubo mágico se fa
 
 Vamos precisar de:
 
-###Alguém que nunca tenha conseguido montar um cubo mágico na vida
+### Alguém que nunca tenha conseguido montar um cubo mágico na vida
 
 Essa pessoa vai representar o computador. Ela possui todos os recursos necessários para conseguir montar o cubo, excluindo o fato de que ela não faz a sincera menor ideia de como montar resolver esse problema, AINDA!
 
-###Um algoritmo para montagem do cubo
+### Um algoritmo para montagem do cubo
 
 Um passo-a-passo de alguém que entenda como montar um cubo e consiga converter esse conhecimento em...
 
-###Código
+### Código
 
 Para quem esteja montando, consiga entender o algoritmo que essa pessoa bolou de uma maneira simples e direta.
 
 ---
 
-#Montando o cubo
+# Montando o cubo
 
 _[Um pouquinho de teoria do cubo antes de começar]_
 
 Agora que já temos o voluntário, vamos prosseguir com os passos.
 
-###Passo 1: Fazer uma cruz na primeira camada
+### Passo 1: Fazer uma cruz na primeira camada
 
 Escolha uma cor para manter no topo. Nesse exemplo, trabalharemos com a cor branca.
 
@@ -45,7 +45,7 @@ Vá virando o cubo sempre mantendo o **branco** no topo e procurando pelas outra
 
 Ex: Se você mover a direita no sentido horário para jogar a peça para a base, após girar a base, mova a direita no sentido anti-horário para corrigir o movimento.
 
-###Passo 2: Complete os cantos da primeira camada
+### Passo 2: Complete os cantos da primeira camada
 
 - Mantenha o **branco** no topo
 - Coloque o centro **verde** de fente para você
@@ -58,7 +58,7 @@ Se o seu canto se encontrar como na imagem abaixo, faça o procedimento e retorn
 
 ![problema-passo2](https://cdn.shopify.com/s/files/1/0646/0891/files/2b_3a61795a-88f0-4fb6-bce2-4ba62b988595_240x240.png?v=155122752 'Problema segundo passo')
 
-###Passo 3: Complete a segunda camada
+### Passo 3: Complete a segunda camada
 
 - Mantenha o **branco** no topo
 - Procure uma peça de meio que não tenha a cor oposta ao branco (**amarelo**)
@@ -69,7 +69,7 @@ Se o seu canto se encontrar como na imagem abaixo, faça o procedimento e retorn
 
 Se não houver nenhuma peça de meio que não contenha **amarelo**, mova qualquer peça de meio para qualquer lado, fazendo um do grupo de movimentos listados acima. Com isso, necessariamente, uma peça de meio que não tenha **amarelo** poderá ser colocada em sua posição correta.
 
-###Passo 4: Complete a cruz da terceira camada
+### Passo 4: Complete a cruz da terceira camada
 
 - Coloque o amarelo no topo
 - A intenção é fazer uma cruz amarela
@@ -86,7 +86,7 @@ Depois desse movimento, você vai ter duas ou quatro peças de meio corretamente
 
 ![passo41](https://cdn.shopify.com/s/files/1/0646/0891/files/4b_480x480.png?v=1551226379 'Quarto ponto um passo')
 
-###Passo 5: Complete os cantos da terceira camada
+### Passo 5: Complete os cantos da terceira camada
 
 O primeiro objetivo desse passo, é colocar todos os cantos no lugar certo, mesmo que eles não estejam perfeitamente alinhados, ou seja, você vai colocar o canto **amarelo/vermelho/verde** no canto que tem os centros **amarelo/vermelho/verde** e assim por diante para cada um dos cantos.
 
