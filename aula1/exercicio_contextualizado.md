@@ -1,0 +1,3 @@
+# Desafio
+
+A Acesso está procurando um novo local para arranjar seus funcionários que não param de crescer. Atualmente, temos um número de **40** funcionários sem um local adequado de trabalho. Considerando que um funcionário demanda cerca de **7m²** em espaço, contando seu local de trabalho e áreas comuns, escreva um programa que pegue as **dimensões** do local que está em vista pelos funcionários da administração e retorne quantos funcionários caberiam nesse local de trabalho. Bem como a diferença entre a quantidade de pessoas que o espaço comporta e a quantidade de funcionários que já demandam um novo local de trabalho.
